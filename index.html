@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1>Suyuqlik hajmini hisoblash</h1>
+    <label for="radius">Radius (metrda):</label>
+    <input type="number" id="radius" step="0.01" /><br /><br />
+
+    <label for="balandlik">Umumiy balandlik (metrda):</label>
+    <input type="number" id="balandlik" step="0.01" /><br /><br />
+
+    <label for="masofa">O'lchangan masofa (metrda):</label>
+    <input type="number" id="masofa" step="0.01" /><br /><br />
+
+    <button onclick="hisobla()">Hisoblash</button>
+
+    <p id="natija"></p> -->
+    <div class="container">
+      <div class="login-wrap">
+        <div class="login-html">
+          <input
+            id="tab-1"
+            type="radio"
+            name="tab"
+            class="sign-in"
+            checked
+          /><label for="tab-1" class="tab">Hisoblash</label>
+          <input id="tab-2" type="radio" name="tab" class="sign-up" /><label
+            for="tab-2"
+            class="tab"
+            >Dastur kodi</label
+          >
+          <div class="login-form">
+            <div class="sign-in-htm">
+              <div class="group">
+                <label for="radius" class="label">Radius (metrda):</label>
+                <input id="radius" type="number" class="input" />
+              </div>
+              <div class="group">
+                <label for="balandlik" class="label"
+                  >Umumiy balandlik (metrda):</label
+                >
+                <input id="balandlik" step="0.01" type="number" class="input" />
+              </div>
+
+              <div class="group">
+                <label for="masofa" class="label"
+                  >O'lchangan masofa (ultra sonik da) (metrda):</label
+                >
+                <input id="masofa" step="0.01" type="number" class="input" />
+              </div>
+
+              <div class="group">
+                <button class="button" onclick="hisobla()">Hisoblash</button>
+              </div>
+              <div class="hr"></div>
+              <div class="foot-lnk">
+                <p>Idishdagi suyuqlik hajmini hisoblash.</p>
+                <p id="natija"></p>
+              </div>
+            </div>
+            <div class="sign-up-htm">
+              <div class="img_container">
+                <img class="imgs" src="./imgsa.png" alt="rasim" />
+              </div>
+              <h1 class="footer_link">
+                <a
+                  href="https://docs.google.com/document/d/1OGXx8tti7hoNUO0-EzHDDohMJ6yowtfi1hWGNol1Udo/edit"
+                  >Prezintatsiyani korish</a
+                >
+              </h1>
+              <div class="img_container">
+                <img class="imgs" src="./code.png" alt="rasim" />
+              </div>
+              <h1 class="footer_link">
+                <a href="https://github.com/MSaidmurod/hajim"
+                  >Dastur kodini korish</a
+                >
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
